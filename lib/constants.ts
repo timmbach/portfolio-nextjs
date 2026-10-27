@@ -26,6 +26,6 @@ export const socials = [
   {
     label: "Peerlist",
     href: "https://peerlist.io/timmbach",
-    imgSrc: "/peerlist.svg",
+    imgSrc: "/peerlist.webp",
   },
 ];

@@ -246,13 +246,23 @@ function Sidebar() {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <svg
-                      className={s.mobileSocialIcon}
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d={social.svgPath} />
-                    </svg>
+                    {social.imgSrc ? (
+                      <Image
+                        src={social.imgSrc}
+                        alt={social.label}
+                        width={24}
+                        height={24}
+                        className={s.mobileSocialIcon}
+                      />
+                    ) : (
+                      <svg
+                        className={s.mobileSocialIcon}
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path d={social.svgPath} />
+                      </svg>
+                    )}
                     <span className={s.mobileSocialText}>{social.label}</span>
                   </a>
                 ))}
@@ -277,7 +287,7 @@ function Sidebar() {
                     key={href}
                     href={href}
                     className={`${s.bottomNavLink} ${pathname === "href" ? s.bottomNavLinkActive : s.bottomNavLinkInactive}`}
-                    aria-label="label"
+                    aria-label={label}
                   >
                     <Icon className={s.bottomNavIcon} />
                   </Link>

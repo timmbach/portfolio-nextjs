@@ -546,7 +546,7 @@ export const sidebarStyles = {
     "flex items-center gap-3 px-3 py-3 rounded-lg transition-colors duration-150",
   navItemActive: "bg-zinc-800 text-zinc-50",
   navItemInactive: "text-zinc-200 hover:bg-zinc-800 hover:text-zinc-50",
-  navIcon: "w-4 h-4 text-zinc-300",
+  navIcon: "w-5 h-5 text-zinc-300",
   navLabel: "text-sm",
 
   // Social section
@@ -570,7 +570,7 @@ export const sidebarStyles = {
 
   // Mobile sidebar
   mobileSidebar:
-    "mobile-sidebar absolute right-0 top-0 h-full w-full max-w-[320px] bg-zinc-950 border-l border-zinc-800 transform transition-transform duration-300 ease-out",
+    "mobile-sidebar absolute right-0 top-0 h-full w-full max-w-[280px] bg-zinc-950 border-l border-zinc-800 transform transition-transform duration-300 ease-out",
   mobileSidebarVisible: "translate-x-0",
   mobileSidebarHidden: "translate-x-full",
   mobileSidebarHeader: "p-6 border-b border-zinc-800",
@@ -614,9 +614,9 @@ export const sidebarStyles = {
   bottomNavLinkActive: "text-zinc-50 bg-zinc-800",
   bottomNavLinkInactive:
     "text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/50",
-  bottomNavIcon: "w-4 h-4",
+  bottomNavIcon: "w-5 h-5",
   bottomNavDivider: "h-6 w-px bg-zinc-800",
   bottomMenuButton:
     "p-2 rounded-lg text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/50 transition-colors",
-  bottomMenuIcon: "w-4 h-4",
+  bottomMenuIcon: "w-5 h-5",
 };

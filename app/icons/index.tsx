@@ -127,20 +127,21 @@ export const ExperienceIcon = ({ className, ...props }: IconProps) => (
 
 export const ToolsIcon = ({ className, ...props }: IconProps) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
     viewBox="0 0 24 24"
     fill="none"
-    strokeWidth={2}
     stroke="currentColor"
-    aria-hidden="true"
-    className={className}
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={`lucide lucide-hammer preview-icon ${className}`}
     {...props}
   >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M14 7a4 4 0 0 1 0 8l6 6-2 2-6-6a4 4 0 1 1 2-10z"
-    />
-    <path strokeLinecap="round" strokeLinejoin="round" d="M13 8l3 3" />
+    <path d="m15 12-9.373 9.373a1 1 0 0 1-3.001-3L12 9" />
+    <path d="m18 15 4-4" />
+    <path d="m21.5 11.5-1.914-1.914A2 2 0 0 1 19 8.172v-.344a2 2 0 0 0-.586-1.414l-1.657-1.657A6 6 0 0 0 12.516 3H9l1.243 1.243A6 6 0 0 1 12 8.485V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5" />
   </svg>
 );
 

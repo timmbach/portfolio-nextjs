@@ -31,13 +31,7 @@ function HomePage() {
 
         <section className={homePageStyles.heroSection}>
           <div className="relative">
-            <h2>
-              Hey, I&apos;m{" "}
-              <span className={homePageStyles.spanWithMargin}>
-                {/* <Cover>Timothy</Cover> */}
-                Timothy
-              </span>
-            </h2>
+            <h2>Hey, I&apos;m Timothy</h2>
             <h2 className={homePageStyles.h2}>
               Fullstack{" "}
               <span className={homePageStyles.spanInline}>
