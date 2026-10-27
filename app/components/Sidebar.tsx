@@ -270,7 +270,7 @@ function Sidebar() {
             </div>
           </div>
           <div className={s.mobileFooter}>
-            <div className={s.mobileFooterLabel}>Reach out &rarr;</div>
+            {/* <div className={s.mobileFooterLabel}>Reach out &rarr;</div> */}
             <div className={s.mobileFooterText}>
               <div className="">Made by Timothy | 2026</div>
             </div>
