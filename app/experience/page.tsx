@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Award, Briefcase, Code2, Rocket, Users } from "lucide-react";
+import { Award, Code2, Rocket } from "lucide-react";
 import { aboutPageStyles, timelineStyles as s } from "@/public/dummyStyles";
 import { Timeline } from "../components/ui/timeline";
 
