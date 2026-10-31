@@ -63,7 +63,13 @@ function HomePage() {
                     aria-label="Connect on LinkedIn"
                     className={homePageStyles.calloutCard.button}
                   >
-                    Connect
+                    <a
+                      href="https://www.linkedin.com/in/timothy-mbachu/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Connect
+                    </a>
                   </button>
                 </div>
               </div>
