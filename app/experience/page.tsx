@@ -445,9 +445,9 @@ function ExperiencePage() {
     <div className={s.container}>
       <div className={s.innerContainer}>
         <div className="mb-0">
-          <div className={s.timelineBadge}>
-            <span className={s.timelineBadge}>Career Timeline</span>
-          </div>
+          {/* <div className={s.timelineBadge}> */}
+          <span className={s.timelineBadge}>Career Timeline</span>
+          {/* </div> */}
           {/* <h1 className={s.mainTitle}>Changelog from my journey</h1> */}
           {/* <p className={s.mainParagraph}>
             I&apos;ve been working at Kay.ai for the past 1.5 years.
