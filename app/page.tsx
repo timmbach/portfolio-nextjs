@@ -61,7 +61,7 @@ function HomePage() {
                   <button
                     type="button"
                     aria-label="Connect on LinkedIn"
-                    className={homePageStyles.calloutCard.button}
+                    className={`${homePageStyles.calloutCard.button} cursor-pointer`}
                   >
                     <a
                       href="https://www.linkedin.com/in/timothy-mbachu/"
