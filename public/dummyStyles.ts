@@ -28,6 +28,8 @@ export const homePageStyles = {
 
   // Callout card
   calloutCard: {
+    outerWrapper:
+      "w-auto sm:w-full flex flex-col justify-center mb-6 gap-3 sm:flex-row sm:w-auto sm:max-w-md md:max-w-lg lg:max-w-2xl ",
     wrapper:
       "w-full sm:w-auto sm:max-w-md md:max-w-lg lg:max-w-xl rounded-2xl p-3 bg-white/5 border border-white/20 backdrop-blur-sm transition-all hover:bg-white/10 hover:border-white/30",
     innerContainer:
@@ -37,6 +39,8 @@ export const homePageStyles = {
     text: "truncate text-sm font-medium text-zinc-200",
     button:
       "mt-2 sm:mt-0 px-4 py-1 rounded-full border bg-zinc-100 text-zinc-900 text-sm shrink-0 focus:outline-none focus:ring-2 focus:ring-white/30 focus:ring-offset-2",
+    downloadButton:
+      "inline-flex items-center text-center w-max mx-auto gap-1.5 px-3 py-1 rounded-2xl border border-white/20 bg-white/5 text-sm font-medium text-zinc-200 shrink-0 transition-all hover:bg-white/10 hover:border-white/30 focus:outline-none focus:ring-2 focus:ring-white/30 focus:ring-offset-2",
   },
 
   // Paragraph

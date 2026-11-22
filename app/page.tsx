@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 import { Spotlight } from "./components/ui/spotlight";
 import { PointerHighlight } from "./components/ui/pointer-highlight";
 import Link from "next/link";
+import { Download } from "lucide-react";
 
 function HomePage() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -39,7 +40,7 @@ function HomePage() {
               </span>
             </h2>
 
-            <div className="mb-6">
+            <div className={homePageStyles.calloutCard.outerWrapper}>
               <div className={homePageStyles.calloutCard.wrapper}>
                 <div className={homePageStyles.calloutCard.innerContainer}>
                   <div className={homePageStyles.calloutCard.textContainer}>
@@ -73,6 +74,15 @@ function HomePage() {
                   </button>
                 </div>
               </div>
+              <a
+                href="/resume.pdf"
+                download="Timothy Mbachu's resume.pdf"
+                aria-label="Download resume (PDF)"
+                className={homePageStyles.calloutCard.downloadButton}
+              >
+                <Download className="h4 w-4" strokeWidth={2} aria-hidden />
+                <span>Download Resume</span>
+              </a>
             </div>
             <p className={homePageStyles.paragraph}>
               <span className={homePageStyles.spanInline}>
