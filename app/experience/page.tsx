@@ -500,7 +500,9 @@ function ExperiencePage() {
               <div className={`${s.techCardTitle} ${s.textEmerald}`}>
                 Backend
               </div>
-              <div className={s.techCardContent}>Node.js</div>
+              <div className={s.techCardContent}>
+                Node.js, Vitest, Convex, Clerk
+              </div>
             </div>
             <div className={s.techCard}>
               <div className={`${s.techCardTitle} ${s.textPurple}`}>
