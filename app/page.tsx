@@ -75,7 +75,7 @@ function HomePage() {
                 </div>
               </div>
               <a
-                href="/resume.pdf"
+                href="/Timothy's-resume.pdf"
                 download="Timothy Mbachu's resume.pdf"
                 aria-label="Download resume (PDF)"
                 className={homePageStyles.calloutCard.downloadButton}
